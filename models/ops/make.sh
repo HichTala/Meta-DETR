@@ -6,5 +6,6 @@
 # ------------------------------------------------------------------------------------------------
 # Modified from https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/tree/pytorch_1.0.0
 # ------------------------------------------------------------------------------------------------
+export TORCH_CUDA_ARCH_LIST="7.0"
 
-python setup.py build install --user
+python setup.py build install --inplace

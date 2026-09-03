@@ -8,4 +8,4 @@
 # ------------------------------------------------------------------------------------------------
 export TORCH_CUDA_ARCH_LIST="7.0"
 
-python setup.py build install --inplace
+python setup.py build install --user
